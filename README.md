@@ -1,4 +1,6 @@
 # Book a Shipment - Flutter App
+[![Watch the video](https://img.icons8.com/clouds/100/000000/video-playlist.png)](https://drive.google.com/file/d/1-3UpXmfyLbD4NLEqur8Z5B2f6bEWgM-R/view?usp=sharing)
+
 
 A Flutter-based mobile application for booking shipments with ease. Users can select pickup and delivery cities, choose a courier, view the price, and proceed to payment with a modern "Slide to Payment" action. The app integrates with a mock API to fetch shipping rates and provides a seamless user experience with animations and a clean UI.
 
