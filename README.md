@@ -1,20 +1,59 @@
-<<<<<<< HEAD
-# delievery
+# Book a Shipment - Flutter App
 
-A new Flutter project.
+A Flutter-based mobile application for booking shipments with ease. Users can select pickup and delivery cities, choose a courier, view the price, and proceed to payment with a modern "Slide to Payment" action. The app integrates with a mock API to fetch shipping rates and provides a seamless user experience with animations and a clean UI.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Select Pickup and Delivery Cities**: Choose from a list of predefined cities (e.g., Delhi, Mumbai, Bangalore) using a hybrid dropdown/autocomplete field.
+- **Choose a Courier**: Select a courier service (e.g., Delhivery, DTDC, Bluedart) from a dropdown menu.
+- **View Price**: Automatically calculates and displays the shipping price based on the selected cities and courier.
+- **Slide to Payment**: A modern "Slide to Payment" action to confirm the booking, ensuring an intuitive user experience.
+- **Confirmation Screen**: Displays booking details with a positive quote after successful payment.
+- **Animations**: Includes fade and slide animations for a smooth UI experience.
+- **Responsive Design**: Works seamlessly on different screen sizes with a light purple gradient background.
 
-A few resources to get you started if this is your first Flutter project:
+## How the App Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Launch the App**: The app opens to the "Book Your Shipment" screen with a light purple gradient background.
+2. **Select Pickup and Delivery Cities**:
+   - Use the hybrid dropdown/autocomplete fields to select the pickup and delivery cities.
+   - The fields support both manual typing (with autocomplete suggestions) and dropdown selection.
+3. **Choose a Courier**:
+   - Select a courier from the dropdown menu (e.g., Delhivery, DTDC, Bluedart).
+4. **View Price**:
+   - The app fetches the shipping price from the API based on the selected cities and courier.
+   - The price is displayed as "Price: ₹[amount]" (e.g., "Price: ₹180").
+5. **Slide to Payment**:
+   - Slide the "Slide to Payment" button to confirm the booking.
+   - If all fields are selected, the app navigates to the confirmation screen.
+   - If any field is missing, a snackbar displays "Please select all fields".
+6. **Confirmation Screen**:
+   - Displays the booking details (pickup, delivery, courier, price).
+   - Shows a random positive quote (e.g., "Happiness is on its way – your shipment has been placed!").
+   - Includes a "Back to Home" button to return to the main screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# book-a-shipment-flutter
->>>>>>> 6e3f083824e83b7c57791acea4deb38bb08ea592
+## API Integration
+
+### API Used
+The app integrates with a mock API to fetch shipping rates based on the selected pickup city, delivery city, and courier. The API endpoint used is:
+
+- **Endpoint**: `https://67db028c1fd9e43fe4733fb8.mockapi.io/api/v1/shipping_rates`
+- **Method**: GET
+- **Response Format**: JSON
+
+Example response:
+```json
+[
+  {
+    "pickup": "Mumbai",
+    "delivery": "Delhi",
+    "courier": "DTDC",
+    "price": 180
+  },
+  {
+    "pickup": "Mumbai",
+    "delivery": "Delhi",
+    "courier": "Bluedart",
+    "price": 220
+  }
+]
