@@ -14,6 +14,18 @@ A Flutter-based mobile application for booking shipments with ease. Users can se
 - **Animations**: Includes fade and slide animations for a smooth UI experience.
 - **Responsive Design**: Works seamlessly on different screen sizes with a light purple gradient background.
 
+## App Screenshots
+
+### Screenshot 1
+![Screenshot 1](https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/1.jpg)
+
+### Screenshot 2
+![Screenshot 2](https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/2.jpg)
+
+### Screenshot 3
+![Screenshot 3](https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/3.jpg)
+
+
 ## How the App Works
 
 1. **Launch the App**: The app opens to the "Book Your Shipment" screen with a light purple gradient background.
