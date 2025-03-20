@@ -17,9 +17,9 @@ A Flutter-based mobile application for booking shipments with ease. Users can se
 ## App Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/1.jpg" width="250">
-  <img src="https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/2.jpg" width="250">
   <img src="https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/3.jpg" width="250">
+  <img src="https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/2.jpg" width="250">
+  <img src="https://raw.githubusercontent.com/bhaktii98/book-a-shipment-flutter/main/1.jpg" width="250">
 </p>
 
 ## How the App Works
